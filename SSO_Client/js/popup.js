@@ -1,4 +1,4 @@
-﻿var baseUrl = "http://152.136.68.76:8080";
+var baseUrl = "http://127.0.0.1:8080";
 var init = function(){
 	initOrganization().then(function(flag){
 		if(flag){//有权限
