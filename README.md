@@ -16,13 +16,13 @@
 # 操作方法
 	1 .点击插件
 
-![SSO1.png](https://github.com/JiPingWangPKI/ESB/raw/master/resource/SSO1.png)
+![SSO1.png](https://github.com/JiPingWangPKI/SSO/raw/master/resource/SSO1.png)
 
 	2 .首次认证中心登录
 	3 .登录后展示的应用列表（可通过点击对应应用自动跳转自动登录对应应用）
 
-![SSO2.png](https://github.com/JiPingWangPKI/ESB/raw/master/resource/SSO2.png)
-![SSO3.png](https://github.com/JiPingWangPKI/ESB/raw/master/resource/SSO3.png)
+![SSO2.png](https://github.com/JiPingWangPKI/SSO/raw/master/resource/SSO2.png)
+![SSO3.png](https://github.com/JiPingWangPKI/SSO/raw/master/resource/SSO3.png)
 
 	4 .带参数方式实现认证（无登陆页面）
 		调用链接：http://localhost:8080/SSO/loginInner?username=admin&password=admin
