@@ -1,0 +1,77 @@
+body {
+    margin: 0px;
+	height: auto;
+}
+
+.organization{
+	font-size: 12px;
+	color: grey;
+	font-weight: 600;
+	font-family: "Segoe UI","Selawik","Arial",sans-serif;
+	margin:10px;
+}
+.name{
+	font-weight: bold;
+	font-size: 15px;
+}
+.applicationId>.content:HOVER {
+	background-color: aliceblue;
+}
+.applicationId>.content>p {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    margin-left: 10px;
+    vertical-align: top;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.applicationId>.content>img {
+    width: 30px;
+    height: 30px;
+	margin: 5px;
+}
+.applicationId {
+    cursor: pointer;
+    height: 50px;
+	width: 200px;
+}
+.content {
+    height: 40px;
+}
+#logout{
+	padding: 10px;
+}
+#logout:hover{
+	background-color: aliceblue;
+}
+hr{
+	margin-bottom: 0px;
+}
+.beforeLogin{
+	width: 200px;
+	margin: 15px;
+	height: 100px;
+}
+.hasLogin{
+	display: none;
+	width: 200px;
+}
+#login{
+	background-color: #d2e1f3;
+    width: 100px;
+    border-style: hidden;
+    border-radius: 2px;
+    height: 30px;
+    float: right;
+	margin-bottom: 15px;
+	margin-top: 20px;
+}
+#login:hover{
+	background-color: #254f9e;
+}
+p{
+    font-size: 13px;
+    color: #333;
+    font-family: "Segoe UI","Selawik","Arial",sans-serif;
+}

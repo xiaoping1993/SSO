@@ -1,0 +1,5 @@
+SSO_Server:SSO服务端认证中心：提供认证服务
+SSO_Clent:SSO客户端插件chrome插件：提供提供客户端自动登录服务
+单点登录.wmv：单点登录操作视频
+SSO方案v2.0docx：SSO方案设计思路和后期方案设计
+chrome插件研发手册：自己总结的chrome插件研发手册

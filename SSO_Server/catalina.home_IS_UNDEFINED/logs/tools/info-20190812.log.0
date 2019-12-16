@@ -1,0 +1,597 @@
+2019-08-12 10:18:55.600 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Starting SSOApplication on SHALL940 with PID 11984 (started by wangj01052 in C:\Project\研发工作\单点登录\SSO_Server)
+2019-08-12 10:18:55.609 [main] INFO  com.Perkinelmer.SSO.SSOApplication -No active profile set, falling back to default profiles: default
+2019-08-12 10:18:56.282 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.Perkinelmer.Mapper]' package. Please check your configuration.
+2019-08-12 10:18:57.807 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2019-08-12 10:18:57.853 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2019-08-12 10:18:57.854 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-08-12 10:18:58.009 [main] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring embedded WebApplicationContext
+2019-08-12 10:18:58.010 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2333 ms
+2019-08-12 10:18:58.704 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-12 10:18:59.046 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path '/SSO'
+2019-08-12 10:18:59.050 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Started SSOApplication in 4.052 seconds (JVM running for 5.015)
+2019-08-12 10:38:57.053 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-12 10:38:57.054 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2019-08-12 10:38:57.064 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 10 ms
+2019-08-12 10:42:25.593 [http-nio-8080-exec-10] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2019-08-12 10:42:25.931 [http-nio-8080-exec-10] INFO  com.zaxxer.hikari.pool.PoolBase -HikariPool-1 - Driver does not support get/set network timeout for connections. (com.microsoft.sqlserver.jdbc.SQLServerConnection.getNetworkTimeout()I)
+2019-08-12 10:42:26.314 [http-nio-8080-exec-10] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2019-08-12 14:14:58.032 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Starting SSOApplication on SHALL940 with PID 17388 (started by wangj01052 in C:\Project\研发工作\单点登录\SSO_Server)
+2019-08-12 14:14:58.036 [main] INFO  com.Perkinelmer.SSO.SSOApplication -No active profile set, falling back to default profiles: default
+2019-08-12 14:14:58.655 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.Perkinelmer.Mapper]' package. Please check your configuration.
+2019-08-12 14:15:00.141 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2019-08-12 14:15:00.193 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2019-08-12 14:15:00.193 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-08-12 14:15:00.351 [main] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring embedded WebApplicationContext
+2019-08-12 14:15:00.352 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2255 ms
+2019-08-12 14:15:01.055 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-12 14:15:01.403 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path '/SSO'
+2019-08-12 14:15:01.407 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Started SSOApplication in 3.975 seconds (JVM running for 5.113)
+2019-08-12 14:15:37.388 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-12 14:15:37.389 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2019-08-12 14:15:37.398 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 9 ms
+2019-08-12 14:15:42.906 [http-nio-8080-exec-7] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2019-08-12 14:15:43.252 [http-nio-8080-exec-7] INFO  com.zaxxer.hikari.pool.PoolBase -HikariPool-1 - Driver does not support get/set network timeout for connections. (com.microsoft.sqlserver.jdbc.SQLServerConnection.getNetworkTimeout()I)
+2019-08-12 14:15:43.646 [http-nio-8080-exec-7] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2019-08-12 14:46:25.037 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Starting SSOApplication on SHALL940 with PID 15608 (started by wangj01052 in C:\Project\研发工作\单点登录\SSO_Server)
+2019-08-12 14:46:25.042 [main] INFO  com.Perkinelmer.SSO.SSOApplication -No active profile set, falling back to default profiles: default
+2019-08-12 14:46:25.755 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.Perkinelmer.Mapper]' package. Please check your configuration.
+2019-08-12 14:46:27.360 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2019-08-12 14:46:27.398 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2019-08-12 14:46:27.399 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-08-12 14:46:27.567 [main] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring embedded WebApplicationContext
+2019-08-12 14:46:27.568 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2462 ms
+2019-08-12 14:46:28.371 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-12 14:46:28.774 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path '/SSO'
+2019-08-12 14:46:28.780 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Started SSOApplication in 4.337 seconds (JVM running for 5.594)
+2019-08-12 14:55:56.629 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-12 14:55:56.629 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2019-08-12 14:55:56.641 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 11 ms
+2019-08-12 14:58:16.354 [http-nio-8080-exec-8] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2019-08-12 14:58:16.718 [http-nio-8080-exec-8] INFO  com.zaxxer.hikari.pool.PoolBase -HikariPool-1 - Driver does not support get/set network timeout for connections. (com.microsoft.sqlserver.jdbc.SQLServerConnection.getNetworkTimeout()I)
+2019-08-12 14:58:17.113 [http-nio-8080-exec-8] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2019-08-12 15:11:29.088 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Starting SSOApplication on SHALL940 with PID 16832 (started by wangj01052 in C:\Project\研发工作\单点登录\SSO_Server)
+2019-08-12 15:11:29.091 [main] INFO  com.Perkinelmer.SSO.SSOApplication -No active profile set, falling back to default profiles: default
+2019-08-12 15:11:29.690 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.Perkinelmer.Mapper]' package. Please check your configuration.
+2019-08-12 15:11:31.169 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2019-08-12 15:11:31.201 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2019-08-12 15:11:31.201 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-08-12 15:11:31.352 [main] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring embedded WebApplicationContext
+2019-08-12 15:11:31.352 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2210 ms
+2019-08-12 15:11:32.022 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-12 15:11:32.347 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path '/SSO'
+2019-08-12 15:11:32.351 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Started SSOApplication in 3.793 seconds (JVM running for 4.648)
+2019-08-12 15:11:33.518 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-12 15:11:33.518 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2019-08-12 15:11:33.531 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 12 ms
+2019-08-12 15:22:06.466 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2019-08-12 15:22:06.763 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.pool.PoolBase -HikariPool-1 - Driver does not support get/set network timeout for connections. (com.microsoft.sqlserver.jdbc.SQLServerConnection.getNetworkTimeout()I)
+2019-08-12 15:22:06.799 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2019-08-12 15:24:47.444 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Starting SSOApplication on SHALL940 with PID 16780 (started by wangj01052 in C:\Project\研发工作\单点登录\SSO_Server)
+2019-08-12 15:24:47.449 [main] INFO  com.Perkinelmer.SSO.SSOApplication -No active profile set, falling back to default profiles: default
+2019-08-12 15:24:48.161 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.Perkinelmer.Mapper]' package. Please check your configuration.
+2019-08-12 15:24:49.770 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2019-08-12 15:24:49.808 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2019-08-12 15:24:49.809 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-08-12 15:24:49.989 [main] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring embedded WebApplicationContext
+2019-08-12 15:24:49.990 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2474 ms
+2019-08-12 15:24:50.827 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-12 15:24:51.261 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path '/SSO'
+2019-08-12 15:24:51.266 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Started SSOApplication in 4.426 seconds (JVM running for 5.5)
+2019-08-12 15:25:04.674 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-12 15:25:04.674 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2019-08-12 15:25:04.685 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 10 ms
+2019-08-12 15:26:11.137 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2019-08-12 15:26:11.512 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.PoolBase -HikariPool-1 - Driver does not support get/set network timeout for connections. (com.microsoft.sqlserver.jdbc.SQLServerConnection.getNetworkTimeout()I)
+2019-08-12 15:26:11.907 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2019-08-12 15:38:37.696 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Starting SSOApplication on SHALL940 with PID 2832 (started by wangj01052 in C:\Project\研发工作\单点登录\SSO_Server)
+2019-08-12 15:38:37.700 [main] INFO  com.Perkinelmer.SSO.SSOApplication -No active profile set, falling back to default profiles: default
+2019-08-12 15:38:38.329 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.Perkinelmer.Mapper]' package. Please check your configuration.
+2019-08-12 15:38:39.804 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2019-08-12 15:38:39.842 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2019-08-12 15:38:39.842 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-08-12 15:38:39.983 [main] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring embedded WebApplicationContext
+2019-08-12 15:38:39.983 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2220 ms
+2019-08-12 15:38:40.780 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-12 15:38:41.131 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path '/SSO'
+2019-08-12 15:38:41.136 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Started SSOApplication in 3.982 seconds (JVM running for 4.938)
+2019-08-12 15:39:17.114 [http-nio-8080-exec-3] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-12 15:39:17.114 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2019-08-12 15:39:17.125 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 11 ms
+2019-08-12 15:39:17.288 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2019-08-12 15:39:17.655 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.pool.PoolBase -HikariPool-1 - Driver does not support get/set network timeout for connections. (com.microsoft.sqlserver.jdbc.SQLServerConnection.getNetworkTimeout()I)
+2019-08-12 15:39:18.064 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2019-08-12 15:42:07.458 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Starting SSOApplication on SHALL940 with PID 17920 (started by wangj01052 in C:\Project\研发工作\单点登录\SSO_Server)
+2019-08-12 15:42:07.464 [main] INFO  com.Perkinelmer.SSO.SSOApplication -No active profile set, falling back to default profiles: default
+2019-08-12 15:42:08.521 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.Perkinelmer.Mapper]' package. Please check your configuration.
+2019-08-12 15:42:10.189 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2019-08-12 15:42:10.228 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2019-08-12 15:42:10.228 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-08-12 15:42:10.422 [main] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring embedded WebApplicationContext
+2019-08-12 15:42:10.423 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2894 ms
+2019-08-12 15:42:11.248 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-12 15:42:11.681 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path '/SSO'
+2019-08-12 15:42:11.687 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Started SSOApplication in 4.814 seconds (JVM running for 5.954)
+2019-08-12 15:42:28.949 [http-nio-8080-exec-4] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-12 15:42:28.949 [http-nio-8080-exec-4] INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2019-08-12 15:42:28.964 [http-nio-8080-exec-4] INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 15 ms
+2019-08-12 15:42:29.132 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2019-08-12 15:42:29.471 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.pool.PoolBase -HikariPool-1 - Driver does not support get/set network timeout for connections. (com.microsoft.sqlserver.jdbc.SQLServerConnection.getNetworkTimeout()I)
+2019-08-12 15:42:29.508 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2019-08-12 15:44:15.960 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Starting SSOApplication on SHALL940 with PID 17912 (started by wangj01052 in C:\Project\研发工作\单点登录\SSO_Server)
+2019-08-12 15:44:15.963 [main] INFO  com.Perkinelmer.SSO.SSOApplication -No active profile set, falling back to default profiles: default
+2019-08-12 15:44:16.548 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.Perkinelmer.Mapper]' package. Please check your configuration.
+2019-08-12 15:44:18.009 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2019-08-12 15:44:18.046 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2019-08-12 15:44:18.047 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-08-12 15:44:18.184 [main] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring embedded WebApplicationContext
+2019-08-12 15:44:18.185 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2169 ms
+2019-08-12 15:44:18.832 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-12 15:44:19.162 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path '/SSO'
+2019-08-12 15:44:19.166 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Started SSOApplication in 3.719 seconds (JVM running for 4.572)
+2019-08-12 15:45:25.920 [http-nio-8080-exec-3] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-12 15:45:25.920 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2019-08-12 15:45:25.929 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 9 ms
+2019-08-12 15:45:26.062 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2019-08-12 15:45:26.384 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.pool.PoolBase -HikariPool-1 - Driver does not support get/set network timeout for connections. (com.microsoft.sqlserver.jdbc.SQLServerConnection.getNetworkTimeout()I)
+2019-08-12 15:45:26.783 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2019-08-12 15:49:41.814 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Starting SSOApplication on SHALL940 with PID 18524 (started by wangj01052 in C:\Project\研发工作\单点登录\SSO_Server)
+2019-08-12 15:49:41.818 [main] INFO  com.Perkinelmer.SSO.SSOApplication -No active profile set, falling back to default profiles: default
+2019-08-12 15:49:42.969 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.Perkinelmer.Mapper]' package. Please check your configuration.
+2019-08-12 15:49:44.553 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2019-08-12 15:49:44.594 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2019-08-12 15:49:44.595 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-08-12 15:49:44.759 [main] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring embedded WebApplicationContext
+2019-08-12 15:49:44.760 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2877 ms
+2019-08-12 15:49:45.607 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-12 15:49:46.031 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path '/SSO'
+2019-08-12 15:49:46.037 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Started SSOApplication in 4.847 seconds (JVM running for 5.902)
+2019-08-12 15:49:55.906 [http-nio-8080-exec-3] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-12 15:49:55.907 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2019-08-12 15:49:55.918 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 11 ms
+2019-08-12 15:50:26.399 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2019-08-12 15:50:26.748 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.pool.PoolBase -HikariPool-1 - Driver does not support get/set network timeout for connections. (com.microsoft.sqlserver.jdbc.SQLServerConnection.getNetworkTimeout()I)
+2019-08-12 15:50:26.783 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2019-08-12 15:57:19.123 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Starting SSOApplication on SHALL940 with PID 19852 (started by wangj01052 in C:\Project\研发工作\单点登录\SSO_Server)
+2019-08-12 15:57:19.127 [main] INFO  com.Perkinelmer.SSO.SSOApplication -No active profile set, falling back to default profiles: default
+2019-08-12 15:57:20.211 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.Perkinelmer.Mapper]' package. Please check your configuration.
+2019-08-12 15:57:21.810 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2019-08-12 15:57:21.845 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2019-08-12 15:57:21.845 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-08-12 15:57:22.013 [main] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring embedded WebApplicationContext
+2019-08-12 15:57:22.013 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2822 ms
+2019-08-12 15:57:22.775 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-12 15:57:23.178 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path '/SSO'
+2019-08-12 15:57:23.184 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Started SSOApplication in 4.658 seconds (JVM running for 5.7)
+2019-08-12 15:58:21.695 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-12 15:58:21.695 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2019-08-12 15:58:21.708 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 12 ms
+2019-08-12 16:00:42.310 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2019-08-12 16:00:42.653 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.PoolBase -HikariPool-1 - Driver does not support get/set network timeout for connections. (com.microsoft.sqlserver.jdbc.SQLServerConnection.getNetworkTimeout()I)
+2019-08-12 16:00:42.691 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2019-08-12 16:09:20.967 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Starting SSOApplication on SHALL940 with PID 11684 (started by wangj01052 in C:\Project\研发工作\单点登录\SSO_Server)
+2019-08-12 16:09:20.973 [main] INFO  com.Perkinelmer.SSO.SSOApplication -No active profile set, falling back to default profiles: default
+2019-08-12 16:09:21.641 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.Perkinelmer.Mapper]' package. Please check your configuration.
+2019-08-12 16:09:23.284 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2019-08-12 16:09:23.331 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2019-08-12 16:09:23.331 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-08-12 16:09:23.513 [main] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring embedded WebApplicationContext
+2019-08-12 16:09:23.513 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2403 ms
+2019-08-12 16:09:24.356 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-12 16:09:24.765 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path '/SSO'
+2019-08-12 16:09:24.769 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Started SSOApplication in 4.821 seconds (JVM running for 5.897)
+2019-08-12 16:11:19.225 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-12 16:11:19.225 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2019-08-12 16:11:19.240 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 14 ms
+2019-08-12 16:11:59.319 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2019-08-12 16:11:59.686 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.pool.PoolBase -HikariPool-1 - Driver does not support get/set network timeout for connections. (com.microsoft.sqlserver.jdbc.SQLServerConnection.getNetworkTimeout()I)
+2019-08-12 16:11:59.724 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2019-08-12 16:12:15.489 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Starting SSOApplication on SHALL940 with PID 14244 (started by wangj01052 in C:\Project\研发工作\单点登录\SSO_Server)
+2019-08-12 16:12:15.495 [main] INFO  com.Perkinelmer.SSO.SSOApplication -No active profile set, falling back to default profiles: default
+2019-08-12 16:12:16.331 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.Perkinelmer.Mapper]' package. Please check your configuration.
+2019-08-12 16:12:18.047 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2019-08-12 16:12:18.091 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2019-08-12 16:12:18.092 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-08-12 16:12:18.273 [main] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring embedded WebApplicationContext
+2019-08-12 16:12:18.274 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2703 ms
+2019-08-12 16:12:19.172 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-12 16:12:19.620 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path '/SSO'
+2019-08-12 16:12:19.626 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Started SSOApplication in 4.782 seconds (JVM running for 5.983)
+2019-08-12 16:12:31.631 [http-nio-8080-exec-3] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-12 16:12:31.632 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2019-08-12 16:12:31.643 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 11 ms
+2019-08-12 16:13:36.711 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2019-08-12 16:13:37.097 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.pool.PoolBase -HikariPool-1 - Driver does not support get/set network timeout for connections. (com.microsoft.sqlserver.jdbc.SQLServerConnection.getNetworkTimeout()I)
+2019-08-12 16:13:37.520 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2019-08-12 16:19:15.622 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Starting SSOApplication on SHALL940 with PID 1660 (started by wangj01052 in C:\Project\研发工作\单点登录\SSO_Server)
+2019-08-12 16:19:15.627 [main] INFO  com.Perkinelmer.SSO.SSOApplication -No active profile set, falling back to default profiles: default
+2019-08-12 16:19:16.348 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.Perkinelmer.Mapper]' package. Please check your configuration.
+2019-08-12 16:19:18.046 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2019-08-12 16:19:18.085 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2019-08-12 16:19:18.086 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-08-12 16:19:18.250 [main] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring embedded WebApplicationContext
+2019-08-12 16:19:18.250 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2556 ms
+2019-08-12 16:19:19.069 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-12 16:19:19.465 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path '/SSO'
+2019-08-12 16:19:19.469 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Started SSOApplication in 4.463 seconds (JVM running for 5.508)
+2019-08-12 16:19:48.398 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-12 16:19:48.399 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2019-08-12 16:19:48.409 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 10 ms
+2019-08-12 16:19:56.197 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2019-08-12 16:19:56.555 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.PoolBase -HikariPool-1 - Driver does not support get/set network timeout for connections. (com.microsoft.sqlserver.jdbc.SQLServerConnection.getNetworkTimeout()I)
+2019-08-12 16:19:56.958 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2019-08-12 17:30:03.935 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Starting SSOApplication on SHALL940 with PID 13708 (started by wangj01052 in C:\Project\研发工作\单点登录\SSO_Server)
+2019-08-12 17:30:03.940 [main] INFO  com.Perkinelmer.SSO.SSOApplication -No active profile set, falling back to default profiles: default
+2019-08-12 17:30:04.704 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.Perkinelmer.Mapper]' package. Please check your configuration.
+2019-08-12 17:30:05.594 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: tools.perkinelmer.Controller.LoginController [Xlint:invalidAbsoluteTypeName]
+2019-08-12 17:30:05.604 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-08-12 17:30:05.609 [main] ERROR o.s.boot.SpringApplication -Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: tools.perkinelmer.Controller.LoginController [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:157)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.Perkinelmer.SSO.SSOApplication.main(SSOApplication.java:12)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: tools.perkinelmer.Controller.LoginController [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$96/1574029810.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:216)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:154)
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: tools.perkinelmer.Controller.LoginController [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$96/1574029810.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:392)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$96/1574029810.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:109)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:251)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1124)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1097)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:504)
+	... 16 common frames omitted
+Caused by: java.lang.IllegalArgumentException: warning no match for this type name: tools.perkinelmer.Controller.LoginController [Xlint:invalidAbsoluteTypeName]
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:319)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:227)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.obtainPointcutExpression(AspectJExpressionPointcut.java:198)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:177)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:225)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:288)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:320)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:126)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:95)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:76)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:347)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:299)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	... 40 common frames omitted
+2019-08-12 17:30:38.143 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Starting SSOApplication on SHALL940 with PID 15660 (started by wangj01052 in C:\Project\研发工作\单点登录\SSO_Server)
+2019-08-12 17:30:38.147 [main] INFO  com.Perkinelmer.SSO.SSOApplication -No active profile set, falling back to default profiles: default
+2019-08-12 17:30:38.906 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.Perkinelmer.Mapper]' package. Please check your configuration.
+2019-08-12 17:30:39.846 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.perkinelmer.Controller.LoginController [Xlint:invalidAbsoluteTypeName]
+2019-08-12 17:30:39.859 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-08-12 17:30:39.867 [main] ERROR o.s.boot.SpringApplication -Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.perkinelmer.Controller.LoginController [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:157)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.Perkinelmer.SSO.SSOApplication.main(SSOApplication.java:12)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.perkinelmer.Controller.LoginController [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$96/267814113.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:216)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:154)
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.perkinelmer.Controller.LoginController [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$96/267814113.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:392)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$96/267814113.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:109)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:251)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1124)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1097)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:504)
+	... 16 common frames omitted
+Caused by: java.lang.IllegalArgumentException: warning no match for this type name: com.perkinelmer.Controller.LoginController [Xlint:invalidAbsoluteTypeName]
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:319)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:227)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.obtainPointcutExpression(AspectJExpressionPointcut.java:198)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:177)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:225)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:288)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:320)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:126)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:95)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:76)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:347)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:299)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	... 40 common frames omitted
+2019-08-12 17:33:06.199 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Starting SSOApplication on SHALL940 with PID 14732 (started by wangj01052 in C:\Project\研发工作\单点登录\SSO_Server)
+2019-08-12 17:33:06.204 [main] INFO  com.Perkinelmer.SSO.SSOApplication -No active profile set, falling back to default profiles: default
+2019-08-12 17:33:06.920 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.Perkinelmer.Mapper]' package. Please check your configuration.
+2019-08-12 17:33:07.780 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.Perkinelmer.Controller.LoginController [Xlint:invalidAbsoluteTypeName]
+2019-08-12 17:33:07.794 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-08-12 17:33:07.802 [main] ERROR o.s.boot.SpringApplication -Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.Perkinelmer.Controller.LoginController [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:157)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.Perkinelmer.SSO.SSOApplication.main(SSOApplication.java:12)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.Perkinelmer.Controller.LoginController [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$96/1904288897.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:216)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:154)
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.Perkinelmer.Controller.LoginController [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$96/1904288897.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:392)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$96/1904288897.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:109)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:251)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1124)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1097)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:504)
+	... 16 common frames omitted
+Caused by: java.lang.IllegalArgumentException: warning no match for this type name: com.Perkinelmer.Controller.LoginController [Xlint:invalidAbsoluteTypeName]
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:319)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:227)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.obtainPointcutExpression(AspectJExpressionPointcut.java:198)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:177)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:225)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:288)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:320)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:126)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:95)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:76)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:347)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:299)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	... 40 common frames omitted
+2019-08-12 17:33:41.779 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Starting SSOApplication on SHALL940 with PID 4744 (started by wangj01052 in C:\Project\研发工作\单点登录\SSO_Server)
+2019-08-12 17:33:41.784 [main] INFO  com.Perkinelmer.SSO.SSOApplication -No active profile set, falling back to default profiles: default
+2019-08-12 17:33:42.534 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.Perkinelmer.Mapper]' package. Please check your configuration.
+2019-08-12 17:33:44.382 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2019-08-12 17:33:44.431 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2019-08-12 17:33:44.431 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-08-12 17:33:44.721 [main] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring embedded WebApplicationContext
+2019-08-12 17:33:44.722 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2866 ms
+2019-08-12 17:33:45.528 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-12 17:33:45.998 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path '/SSO'
+2019-08-12 17:33:46.004 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Started SSOApplication in 4.846 seconds (JVM running for 5.867)
+2019-08-12 17:34:10.998 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-12 17:34:10.999 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2019-08-12 17:34:11.010 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 11 ms
+2019-08-12 17:34:22.934 [http-nio-8080-exec-8] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2019-08-12 17:34:29.009 [http-nio-8080-exec-8] INFO  com.zaxxer.hikari.pool.PoolBase -HikariPool-1 - Driver does not support get/set network timeout for connections. (com.microsoft.sqlserver.jdbc.SQLServerConnection.getNetworkTimeout()I)
+2019-08-12 17:34:29.530 [http-nio-8080-exec-8] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2019-08-12 17:35:01.610 [http-nio-8080-exec-8] ERROR com.Perkinelmer.SSO.AOP.Aop -org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: com.microsoft.sqlserver.jdbc.SQLServerException: 列名 'opereateMethod' 无效。
+### The error may involve com.Perkinelmer.SSO.Mapper.CommonMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into operateLog(opereateMethod,operateUserId,operateTime,operateRequest,operateResponse) values('login',1,'2019-08-12 17:34:22','第1个参数为:admin;第2个参数为:admin;第3个参数为:org.apache.catalina.connector.RequestFacade@6e359f84;第4个参数为:org.apache.catalina.connector.ResponseFacade@17f141e6;'+'{"code":0,"data":"登录成功","jsonStr":"{\"code\":0,\"msg\":\"成功\",\"obj\":\"登录成功\"}","msg":"成功"}')
+### Cause: com.microsoft.sqlserver.jdbc.SQLServerException: 列名 'opereateMethod' 无效。
+; bad SQL grammar []; nested exception is com.microsoft.sqlserver.jdbc.SQLServerException: 列名 'opereateMethod' 无效。
+2019-08-12 17:36:06.750 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Starting SSOApplication on SHALL940 with PID 15428 (started by wangj01052 in C:\Project\研发工作\单点登录\SSO_Server)
+2019-08-12 17:36:06.754 [main] INFO  com.Perkinelmer.SSO.SSOApplication -No active profile set, falling back to default profiles: default
+2019-08-12 17:36:07.484 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.Perkinelmer.Mapper]' package. Please check your configuration.
+2019-08-12 17:36:09.220 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2019-08-12 17:36:09.264 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2019-08-12 17:36:09.264 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-08-12 17:36:09.529 [main] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring embedded WebApplicationContext
+2019-08-12 17:36:09.530 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2712 ms
+2019-08-12 17:36:10.266 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-12 17:36:10.681 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path '/SSO'
+2019-08-12 17:36:10.687 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Started SSOApplication in 4.541 seconds (JVM running for 5.586)
+2019-08-12 17:36:36.737 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-12 17:36:36.737 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2019-08-12 17:36:36.751 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 13 ms
+2019-08-12 17:36:42.042 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2019-08-12 17:36:42.370 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.PoolBase -HikariPool-1 - Driver does not support get/set network timeout for connections. (com.microsoft.sqlserver.jdbc.SQLServerConnection.getNetworkTimeout()I)
+2019-08-12 17:36:42.773 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2019-08-12 17:36:43.044 [http-nio-8080-exec-2] ERROR com.Perkinelmer.SSO.AOP.Aop -org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: com.microsoft.sqlserver.jdbc.SQLServerException: 列名 'opereateMethod' 无效。
+### The error may involve com.Perkinelmer.SSO.Mapper.CommonMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into operateLog(opereateMethod,operateUserId,operateTime,operateRequest,operateResponse) values('login',1,'2019-08-12 17:36:41','第1个参数为:admin;第2个参数为:admin;第3个参数为:org.apache.catalina.connector.RequestFacade@34946d43;第4个参数为:org.apache.catalina.connector.ResponseFacade@37fe7547;','{"code":0,"data":"登录成功","jsonStr":"{\"code\":0,\"msg\":\"成功\",\"obj\":\"登录成功\"}","msg":"成功"}')
+### Cause: com.microsoft.sqlserver.jdbc.SQLServerException: 列名 'opereateMethod' 无效。
+; bad SQL grammar []; nested exception is com.microsoft.sqlserver.jdbc.SQLServerException: 列名 'opereateMethod' 无效。
+2019-08-12 17:37:02.286 [http-nio-8080-exec-7] ERROR com.Perkinelmer.SSO.AOP.Aop -org.springframework.jdbc.UncategorizedSQLException: 
+### Error updating database.  Cause: com.microsoft.sqlserver.jdbc.SQLServerException: “,”附近有语法错误。
+### The error may involve com.Perkinelmer.SSO.Mapper.CommonMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into operateLog(opereateMethod,operateUserId,operateTime,operateRequest,operateResponse) values('logout',,'2019-08-12 17:37:02','第1个参数为:null;第2个参数为:org.apache.catalina.connector.RequestFacade@53e90c9c;第3个参数为:org.apache.catalina.connector.ResponseFacade@5d2ee891;','{"code":0,"data":"注销成功","jsonStr":"{\"code\":0,\"msg\":\"成功\",\"obj\":\"注销成功\"}","msg":"成功"}')
+### Cause: com.microsoft.sqlserver.jdbc.SQLServerException: “,”附近有语法错误。
+; uncategorized SQLException; SQL state [S0001]; error code [102]; “,”附近有语法错误。; nested exception is com.microsoft.sqlserver.jdbc.SQLServerException: “,”附近有语法错误。
+2019-08-12 17:38:51.645 [http-nio-8080-exec-2] ERROR com.Perkinelmer.SSO.AOP.Aop -org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: com.microsoft.sqlserver.jdbc.SQLServerException: 列名 'opereateMethod' 无效。
+### The error may involve com.Perkinelmer.SSO.Mapper.CommonMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into operateLog(opereateMethod,operateUserId,operateTime,operateRequest,operateResponse) values('login',1,'2019-08-12 17:38:25','第1个参数为:admin;第2个参数为:admin;第3个参数为:org.apache.catalina.connector.RequestFacade@34946d43;第4个参数为:org.apache.catalina.connector.ResponseFacade@37fe7547;','{"code":0,"data":"登录成功","jsonStr":"{\"code\":0,\"msg\":\"成功\",\"obj\":\"登录成功\"}","msg":"成功"}')
+### Cause: com.microsoft.sqlserver.jdbc.SQLServerException: 列名 'opereateMethod' 无效。
+; bad SQL grammar []; nested exception is com.microsoft.sqlserver.jdbc.SQLServerException: 列名 'opereateMethod' 无效。
+2019-08-12 17:47:10.584 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Starting SSOApplication on SHALL940 with PID 12064 (started by wangj01052 in C:\Project\研发工作\单点登录\SSO_Server)
+2019-08-12 17:47:10.587 [main] INFO  com.Perkinelmer.SSO.SSOApplication -No active profile set, falling back to default profiles: default
+2019-08-12 17:47:11.223 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.Perkinelmer.Mapper]' package. Please check your configuration.
+2019-08-12 17:47:12.885 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2019-08-12 17:47:12.918 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2019-08-12 17:47:12.918 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-08-12 17:47:13.090 [main] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring embedded WebApplicationContext
+2019-08-12 17:47:13.091 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2444 ms
+2019-08-12 17:47:13.753 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-12 17:47:14.107 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path '/SSO'
+2019-08-12 17:47:14.112 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Started SSOApplication in 4.083 seconds (JVM running for 4.949)
+2019-08-12 17:47:39.799 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-12 17:47:39.800 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2019-08-12 17:47:39.812 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 12 ms
+2019-08-12 17:47:44.508 [http-nio-8080-exec-8] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2019-08-12 17:47:44.826 [http-nio-8080-exec-8] INFO  com.zaxxer.hikari.pool.PoolBase -HikariPool-1 - Driver does not support get/set network timeout for connections. (com.microsoft.sqlserver.jdbc.SQLServerConnection.getNetworkTimeout()I)
+2019-08-12 17:47:45.220 [http-nio-8080-exec-8] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2019-08-12 17:47:45.449 [http-nio-8080-exec-8] ERROR com.Perkinelmer.SSO.AOP.Aop -org.springframework.jdbc.UncategorizedSQLException: 
+### Error updating database.  Cause: com.microsoft.sqlserver.jdbc.SQLServerException: “,”附近有语法错误。
+### The error may involve com.Perkinelmer.SSO.Mapper.CommonMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into operateLog(operateMethod,operateUserId,operateTime,operateRequest,operateResponse) values('login',,'2019-08-12 17:47:44','第1个参数为:admin;第2个参数为:admin;第3个参数为:org.apache.catalina.connector.RequestFacade@448327e;第4个参数为:org.apache.catalina.connector.ResponseFacade@36c7b429;','{"code":0,"data":"登录成功","jsonStr":"{\"code\":0,\"msg\":\"成功\",\"obj\":\"登录成功\"}","msg":"成功"}')
+### Cause: com.microsoft.sqlserver.jdbc.SQLServerException: “,”附近有语法错误。
+; uncategorized SQLException; SQL state [S0001]; error code [102]; “,”附近有语法错误。; nested exception is com.microsoft.sqlserver.jdbc.SQLServerException: “,”附近有语法错误。
+2019-08-12 17:49:05.409 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Starting SSOApplication on SHALL940 with PID 6580 (started by wangj01052 in C:\Project\研发工作\单点登录\SSO_Server)
+2019-08-12 17:49:05.413 [main] INFO  com.Perkinelmer.SSO.SSOApplication -No active profile set, falling back to default profiles: default
+2019-08-12 17:49:06.151 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.Perkinelmer.Mapper]' package. Please check your configuration.
+2019-08-12 17:49:08.045 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2019-08-12 17:49:08.092 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2019-08-12 17:49:08.093 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-08-12 17:49:08.371 [main] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring embedded WebApplicationContext
+2019-08-12 17:49:08.371 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2894 ms
+2019-08-12 17:49:09.085 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-12 17:49:09.496 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path '/SSO'
+2019-08-12 17:49:09.500 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Started SSOApplication in 4.698 seconds (JVM running for 5.743)
+2019-08-12 17:49:26.944 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-12 17:49:26.945 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2019-08-12 17:49:26.956 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 11 ms
+2019-08-12 17:49:43.757 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2019-08-12 17:49:44.095 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.pool.PoolBase -HikariPool-1 - Driver does not support get/set network timeout for connections. (com.microsoft.sqlserver.jdbc.SQLServerConnection.getNetworkTimeout()I)
+2019-08-12 17:49:44.487 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2019-08-12 17:52:05.542 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Starting SSOApplication on SHALL940 with PID 10116 (started by wangj01052 in C:\Project\研发工作\单点登录\SSO_Server)
+2019-08-12 17:52:05.547 [main] INFO  com.Perkinelmer.SSO.SSOApplication -No active profile set, falling back to default profiles: default
+2019-08-12 17:52:06.284 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.Perkinelmer.Mapper]' package. Please check your configuration.
+2019-08-12 17:52:08.047 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2019-08-12 17:52:08.083 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2019-08-12 17:52:08.084 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-08-12 17:52:08.358 [main] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring embedded WebApplicationContext
+2019-08-12 17:52:08.359 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2750 ms
+2019-08-12 17:52:09.069 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-12 17:52:09.484 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path '/SSO'
+2019-08-12 17:52:09.490 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Started SSOApplication in 4.529 seconds (JVM running for 5.59)
+2019-08-12 17:52:25.663 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-12 17:52:25.663 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2019-08-12 17:52:25.675 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 11 ms
+2019-08-12 17:52:35.063 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2019-08-12 17:52:35.404 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.pool.PoolBase -HikariPool-1 - Driver does not support get/set network timeout for connections. (com.microsoft.sqlserver.jdbc.SQLServerConnection.getNetworkTimeout()I)
+2019-08-12 17:52:35.850 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2019-08-12 17:53:20.599 [http-nio-8080-exec-9] ERROR com.Perkinelmer.SSO.AOP.Aop -java.lang.IllegalStateException: getAttribute: Session already invalidated
+2019-08-12 17:53:41.660 [http-nio-8080-exec-6] ERROR com.Perkinelmer.SSO.AOP.Aop -java.lang.IllegalStateException: getAttribute: Session already invalidated
+2019-08-12 17:54:38.783 [http-nio-8080-exec-4] ERROR com.Perkinelmer.SSO.AOP.Aop -java.lang.IllegalStateException: getAttribute: Session already invalidated
+2019-08-12 17:58:10.732 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Starting SSOApplication on SHALL940 with PID 17996 (started by wangj01052 in C:\Project\研发工作\单点登录\SSO_Server)
+2019-08-12 17:58:10.737 [main] INFO  com.Perkinelmer.SSO.SSOApplication -No active profile set, falling back to default profiles: default
+2019-08-12 17:58:11.459 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.Perkinelmer.Mapper]' package. Please check your configuration.
+2019-08-12 17:58:13.272 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2019-08-12 17:58:13.312 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2019-08-12 17:58:13.313 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-08-12 17:58:13.583 [main] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring embedded WebApplicationContext
+2019-08-12 17:58:13.584 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2779 ms
+2019-08-12 17:58:14.323 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-12 17:58:14.738 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path '/SSO'
+2019-08-12 17:58:14.743 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Started SSOApplication in 4.632 seconds (JVM running for 5.706)
+2019-08-12 17:58:19.064 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-12 17:58:19.064 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2019-08-12 17:58:19.078 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 14 ms
+2019-08-12 17:58:22.788 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2019-08-12 17:58:23.134 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.pool.PoolBase -HikariPool-1 - Driver does not support get/set network timeout for connections. (com.microsoft.sqlserver.jdbc.SQLServerConnection.getNetworkTimeout()I)
+2019-08-12 17:58:23.546 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+2019-08-12 18:00:09.054 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Starting SSOApplication on SHALL940 with PID 14624 (started by wangj01052 in C:\Project\研发工作\单点登录\SSO_Server)
+2019-08-12 18:00:09.059 [main] INFO  com.Perkinelmer.SSO.SSOApplication -No active profile set, falling back to default profiles: default
+2019-08-12 18:00:09.789 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.Perkinelmer.Mapper]' package. Please check your configuration.
+2019-08-12 18:00:11.538 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2019-08-12 18:00:11.578 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2019-08-12 18:00:11.578 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-08-12 18:00:11.851 [main] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring embedded WebApplicationContext
+2019-08-12 18:00:11.851 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2723 ms
+2019-08-12 18:00:12.563 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-12 18:00:12.983 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path '/SSO'
+2019-08-12 18:00:12.988 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Started SSOApplication in 4.534 seconds (JVM running for 5.577)
+2019-08-12 18:00:17.717 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-12 18:00:17.718 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2019-08-12 18:00:17.732 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 14 ms
+2019-08-12 18:00:24.931 [http-nio-8080-exec-7] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2019-08-12 18:00:25.276 [http-nio-8080-exec-7] INFO  com.zaxxer.hikari.pool.PoolBase -HikariPool-1 - Driver does not support get/set network timeout for connections. (com.microsoft.sqlserver.jdbc.SQLServerConnection.getNetworkTimeout()I)
+2019-08-12 18:00:25.666 [http-nio-8080-exec-7] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.

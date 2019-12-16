@@ -1,0 +1,28 @@
+2019-05-27 10:50:04.990 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Starting SSOApplication on SHALL940 with PID 12884 (started by wangj01052 in C:\Project\单点登录\SSO_Server)
+2019-05-27 10:50:05.011 [main] INFO  com.Perkinelmer.SSO.SSOApplication -No active profile set, falling back to default profiles: default
+2019-05-27 10:50:08.306 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.Perkinelmer.Mapper]' package. Please check your configuration.
+2019-05-27 10:50:13.638 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2019-05-27 10:50:13.771 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2019-05-27 10:50:13.773 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-27 10:50:14.194 [main] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring embedded WebApplicationContext
+2019-05-27 10:50:14.195 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 9048 ms
+2019-05-27 10:50:16.062 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-27 10:50:16.875 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path '/SSO'
+2019-05-27 10:50:16.883 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Started SSOApplication in 13.056 seconds (JVM running for 15.702)
+2019-05-27 10:58:13.278 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Starting SSOApplication on SHALL940 with PID 10196 (started by wangj01052 in C:\Project\单点登录\SSO_Server)
+2019-05-27 10:58:13.290 [main] INFO  com.Perkinelmer.SSO.SSOApplication -No active profile set, falling back to default profiles: default
+2019-05-27 10:58:15.137 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.Perkinelmer.Mapper]' package. Please check your configuration.
+2019-05-27 10:58:18.068 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2019-05-27 10:58:18.140 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2019-05-27 10:58:18.140 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-27 10:58:18.421 [main] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring embedded WebApplicationContext
+2019-05-27 10:58:18.421 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 4846 ms
+2019-05-27 10:58:19.532 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-27 10:58:20.026 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path '/SSO'
+2019-05-27 10:58:20.045 [main] INFO  com.Perkinelmer.SSO.SSOApplication -Started SSOApplication in 8.355 seconds (JVM running for 11.986)
+2019-05-27 10:59:10.905 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[localhost].[/SSO] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-27 10:59:10.907 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2019-05-27 10:59:10.964 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 56 ms
+2019-05-27 10:59:19.777 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+2019-05-27 10:59:30.838 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.PoolBase -HikariPool-1 - Driver does not support get/set network timeout for connections. (com.microsoft.sqlserver.jdbc.SQLServerConnection.getNetworkTimeout()I)
+2019-05-27 10:59:34.759 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.

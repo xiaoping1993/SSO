@@ -1,0 +1,59 @@
+.main{
+	margin: 20px auto;
+    width: 85%;
+}
+.logo,.userInfo {
+    display: inline-block;
+}
+.userInfo {
+    float: right;
+}
+.name {
+    display: inline-block;
+}
+.touxiang {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+.touxiang>img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.top {
+    margin: 30px auto;
+}
+.appsTitle{
+	font-family: "Segoe UI","Selawik","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+.applicationLists {
+    margin: 20px auto;
+}
+.applicationId {
+    cursor: pointer;
+    height: 100px;
+    width: 300px;
+    margin-right: 20px;
+    display: inline-block;
+}
+.applicationId>.content>img {
+    width: 80px;
+    height: 80px;
+}
+.applicationId>.content>p {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    margin-left: 10px;
+    vertical-align: top;
+    margin-top: 30px;
+}
+.applicationId>.content:HOVER {
+	background-color: aliceblue;
+}
+.content {
+    height: 80px;
+}
