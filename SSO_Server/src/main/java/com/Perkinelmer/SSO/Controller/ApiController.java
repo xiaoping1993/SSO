@@ -1,7 +1,6 @@
 package com.Perkinelmer.SSO.Controller;
 
 import java.io.IOException;
-import java.util.Base64;
 import java.util.List;
 import java.util.Map;
 import javax.servlet.ServletException;
@@ -29,7 +28,8 @@ public class ApiController {
 	private CommonMapper commonMapper;
 	@RequestMapping("getApplicationInfo")
 	public Result getApplicationInfo(String ApplicationId,HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
-		Base64.Decoder decoder = Base64.getDecoder();
+		//后期你可以增加密码的编码加密
+		//Base64.Decoder decoder = Base64.getDecoder();
 		JSONObject jo = new JSONObject();
 		HttpSession session = request.getSession(false);
 		if(session==null){
@@ -50,10 +50,10 @@ public class ApiController {
 			String applicationUrl = application.get("applicationUrl").toString();
 			String userName = application.get("userName").toString();
 			String password = application.get("passWord").toString();
-			String passWord = new String(decoder.decode(password), "UTF-8");
+			//String passWord = new String(decoder.decode(password), "UTF-8");
 			jo.put("applicationUrl",applicationUrl);
 			jo.put("userName",userName);
-			jo.put("password",passWord);
+			jo.put("password",password);
 		}
 		return ResultUtil.success(jo);
 	}
