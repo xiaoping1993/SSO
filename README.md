@@ -16,13 +16,13 @@
 # 操作方法
 	1 .点击插件
 
-![SSO1.png](https://github.com/JiPingWangPKI/SSO/raw/master/resource/SSO1.png)
+![SSO1.png](https://github.com/xiaoping1993/SSO/raw/master/resource/SSO1.png)
 
 	2 .首次认证中心登录
 	3 .登录后展示的应用列表（可通过点击对应应用自动跳转自动登录对应应用）
 
-![SSO2.png](https://github.com/JiPingWangPKI/SSO/raw/master/resource/SSO2.png)
-![SSO3.png](https://github.com/JiPingWangPKI/SSO/raw/master/resource/SSO3.png)
+![SSO2.png](https://github.com/xiaoping1993/SSO/raw/master/resource/SSO2.png)
+![SSO3.png](https://github.com/xiaoping1993/SSO/raw/master/resource/SSO3.png)
 
 	4 .带参数方式实现认证（无登陆页面）
 		调用链接：http://localhost:8881/SSO/loginInner?username=admin&password=admin
@@ -30,7 +30,7 @@
 	5 .之后通过数据库，或者spotfire对后台数据进行管理（用户，应用，用户应用对象关系）
 		注意：其中应用的密码通过base64转码，如果应用A的账户密码为123，怎录入数据库中为123的base64编码MTIz，以此类推（这里用base64方式加密原因是为了后续能方便解密，后续也可以自行更改加密解密规则）
 	6 .操作视频
-[单点登录.wmv](https://github.com/JiPingWangPKI/SSO/blob/master/resource/单点登录.wmv)
+[单点登录.wmv](https://github.com/xiaoping1993/SSO/blob/master/resource/单点登录.wmv)
 # 四：实施手册
 	1.	在指定服务器搭建认证中心（SSO，就是SSO_Server项目,若不想本地搭建我们提供了服务端：http://47.103.133.15:8881/SSO/login.html）
 	2.	在需要配置单点登录的客户机，上安装谷歌浏览器
@@ -38,7 +38,7 @@
 	4.	在服务器或者spotfire上配置信息（配置应用信息，用户信息，应用用户对应信息）
 	5.	这里对于用户、组织、应用的注册需使用的是我们提供的地址请留言给我，我看到会给你添上，这方便功能期待后续完善；若你在本地搭建了服务端，可直接修改数据库达到你注册应用用户等效果
 # 五：资源
-[chrome插件研发手册.docx](https://github.com/JiPingWangPKI/SSO/blob/master/resource/chrome插件研发手册.docx)
+[chrome插件研发手册.docx](https://github.com/xiaoping1993/SSO/blob/master/resource/chrome插件研发手册.docx)
 
 
 
