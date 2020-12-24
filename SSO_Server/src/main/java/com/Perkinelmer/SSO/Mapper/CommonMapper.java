@@ -12,12 +12,15 @@ import org.apache.ibatis.annotations.Update;
 
 @Mapper
 public interface CommonMapper {
-	@Insert("${sql}")
-	int insert(@Param("sql") String sql);
-	@Select("${sql}")
-	List<Map<String,Object>> select(@Param("sql") String sql);
-	@Update("${sql}")
-	List<Map<String,Object>> update(@Param("sql") String sql);
-	@Delete("${sql}")
-	int delete(@Param("sql") String sql);
+    @Insert("${sql}")
+    int insert(@Param("sql") String sql);
+
+    @Select("${sql}")
+    List<Map<String, Object>> select(@Param("sql") String sql);
+
+    @Update("${sql}")
+    List<Map<String, Object>> update(@Param("sql") String sql);
+
+    @Delete("${sql}")
+    int delete(@Param("sql") String sql);
 }

@@ -86,17 +86,19 @@ layuiXtree.prototype.Initial = function (o) {
     _this._form = o.form; //layui from对象
     _this._domStr = "";  //结构字符串
     _this._isopen = o.isopen != null ? o.isopen : true;
-    if (o.color == null) o.color = { open: '#2F4056', close: '#2F4056', end: '#2F4056' };//图标颜色
+    if (o.color == null) o.color = {open: '#2F4056', close: '#2F4056', end: '#2F4056'};//图标颜色
     _this._iconOpenColor = o.color.open != null ? o.color.open : "#2F4056";
     _this._iconCloseColor = o.color.close != null ? o.color.close : "#2F4056";
     _this._iconEndColor = o.color.end != null ? o.color.end : "#2F4056";
-    if (o.icon == null) o.icon = { open: '&#xe625;', close: '&#xe623;', end: '&#xe621;' };//图标样式
+    if (o.icon == null) o.icon = {open: '&#xe625;', close: '&#xe623;', end: '&#xe621;'};//图标样式
     _this._iconOpen = o.icon.open != null ? o.icon.open : '&#xe625;';
     _this._iconClose = o.icon.close != null ? o.icon.close : '&#xe623;';
     _this._iconEnd = o.icon.end != null ? o.icon.end : '&#xe621;';
-    _this._click = o.click != null ? o.click : function () { };
+    _this._click = o.click != null ? o.click : function () {
+    };
     _this._ckall = o.ckall != null ? o.ckall : false;  //全选是否启用
-    _this._ckallSuccess = o.ckallback != null ? o.ckallback : function () { };//全选回调
+    _this._ckallSuccess = o.ckallback != null ? o.ckallback : function () {
+    };//全选回调
     _this.CreateCkAll();
     _this.dataBind(_this._dataJson);
     _this.Rendering();
@@ -121,12 +123,11 @@ layuiXtree.prototype.dataBind = function (d) {
             var xtree_ischecked = '';
             var xtree_isdisabled = d[i].disabled ? ' disabled="disabled" ' : '';
             _this._domStr += '<div class="layui-xtree-item">';
-            if (d[i].data.length > 0){
-            	_this._domStr += '<i class="layui-icon layui-xtree-icon" data-xtree="' + (_this._isopen ? '1' : '0') + '">' + (_this._isopen ? _this._iconOpen : _this._iconClose) + '</i>';
-            	xtree_ischecked = d[i].checked ? ' checked ' : '';
-            	xtree_isdisabled = d[i].disabled ? ' disabled="disabled" ' : '';
-            }
-            else {
+            if (d[i].data.length > 0) {
+                _this._domStr += '<i class="layui-icon layui-xtree-icon" data-xtree="' + (_this._isopen ? '1' : '0') + '">' + (_this._isopen ? _this._iconOpen : _this._iconClose) + '</i>';
+                xtree_ischecked = d[i].checked ? ' checked ' : '';
+                xtree_isdisabled = d[i].disabled ? ' disabled="disabled" ' : '';
+            } else {
                 _this._domStr += '<i class="layui-icon layui-xtree-icon-null">' + _this._iconEnd + '</i>';
                 xtree_isend = 'data-xend="1"';
                 xtree_ischecked = d[i].checked ? ' checked ' : '';
@@ -236,8 +237,7 @@ layuiXtree.prototype.Rendering = function () {
                 if (xtree_allck[i].getAttribute('class').indexOf('layui-checkbox-disbaled') == -1) {
                     if (data.elem.checked) {
                         xtree_allck[i].classList.add('layui-form-checked');
-                    }
-                    else {
+                    } else {
                         xtree_allck[i].classList.remove('layui-form-checked');
                     }
                     xtree_allck[i].parentNode.getElementsByClassName('layui-xtree-checkbox')[0].checked = data.elem.checked;
@@ -297,7 +297,8 @@ layuiXtree.prototype.GetChecked = function () {
     var cks = _this.getByClassName('layui-xtree-checkbox');
     for (var i = 0; i < cks.length; i++) {
         if (cks[i].checked) {//&& cks[i].getAttribute('data-xend') == '1'，加上他就能只获得末枝节点
-            arr[arrIndex] = cks[i]; arrIndex++;
+            arr[arrIndex] = cks[i];
+            arrIndex++;
         }
     }
     return arr;
@@ -310,7 +311,8 @@ layuiXtree.prototype.GetAllCheckBox = function () {
     var arrIndex = 0;
     var cks = _this.getByClassName('layui-xtree-checkbox');
     for (var i = 0; i < cks.length; i++) {
-        arr[arrIndex] = cks[i]; arrIndex++;
+        arr[arrIndex] = cks[i];
+        arrIndex++;
     }
     return arr;
 }

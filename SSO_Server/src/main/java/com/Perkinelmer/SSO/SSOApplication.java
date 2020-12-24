@@ -8,8 +8,8 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 @ServletComponentScan
 public class SSOApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SSOApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(SSOApplication.class, args);
+    }
 
 }
